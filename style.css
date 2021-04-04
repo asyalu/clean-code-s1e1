@@ -120,6 +120,7 @@
 }
 
 .main__list-text {
+  display: none;
   width: 226px;
   margin: 0;
   font-size: 18px;

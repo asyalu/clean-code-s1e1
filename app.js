@@ -86,9 +86,11 @@ var editTask = function () {
     //switch to .editmode
     //label becomes the inputs value.
     label.innerText = editInput.value;
+    editInput.style.display = "none";
     editBtn.innerText = "Edit";
   } else {
     editInput.value = label.innerText;
+    editInput.style.display = "flex";
     editBtn.innerText = "Save";
   }
 
